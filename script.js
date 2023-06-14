@@ -15,6 +15,7 @@
 
 // question 3
 // insert element into ARRAY
+/*
 let data = [10, 20, 30, 40, 50, 60];
 let newEl = 35;
 let position = 3;
@@ -35,3 +36,4 @@ console.log(data);
 let item = [10, 20, 30, 40, 50, 60];
 item.splice(4, 0, 45);
 console.log(item);
+*/
