@@ -67,3 +67,16 @@ console.log(index);
 // alternate method for searching element
 console.log(items.indexOf(searchElement));
 */
+
+// Question 5
+// Merge two array
+let arr1 = [1, 2, 3, 4, 5, 6];
+let arr2 = [7, 8, 9, 10, 11, 12];
+let arrFinal = [];
+for (let i = 0; i < arr1.length; i++) {
+  arrFinal[i] = arr1[i];
+}
+for (let i = 0; i < arr2.length; i++) {
+  arrFinal[arr1.length + i] = arr2[i];
+}
+console.log(arrFinal);
