@@ -37,3 +37,15 @@ let item = [10, 20, 30, 40, 50, 60];
 item.splice(4, 0, 45);
 console.log(item);
 */
+
+// question 4
+// delete element from array
+let items = [20, 30, 35, 45, 76, 80];
+let position = 3;
+for (let i = position; i < items.length - 1; i++) {
+  // assign next value into items[i]
+  items[i] = items[i + 1];
+}
+// fixed the value of item
+items.length = items.length - 1;
+console.log(items);
