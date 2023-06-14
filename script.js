@@ -40,6 +40,7 @@ console.log(item);
 
 // question 4
 // delete element from array
+/*
 let items = [20, 30, 35, 45, 76, 80];
 let position = 3;
 for (let i = position; i < items.length - 1; i++) {
@@ -49,3 +50,4 @@ for (let i = position; i < items.length - 1; i++) {
 // fixed the value of item
 items.length = items.length - 1;
 console.log(items);
+*/
