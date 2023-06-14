@@ -53,6 +53,7 @@ console.log(items);
 */
 
 // search in array
+/*
 let items = [20, 30, 35, 45, 76, 80];
 let searchElement = 76;
 let index = undefined;
@@ -65,3 +66,4 @@ for (let i = 0; i < items.length - 1; i++) {
 console.log(index);
 // alternate method for searching element
 console.log(items.indexOf(searchElement));
+*/
