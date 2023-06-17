@@ -104,6 +104,7 @@ console.log(data);
 //Recursion
 
 // find factorial of 5
+/*
 function findFact(item) {
   if (item == 0) {
     return 1;
@@ -112,3 +113,4 @@ function findFact(item) {
 }
 const data = 5;
 console.log(findFact(data));
+*/
