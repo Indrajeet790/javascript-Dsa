@@ -87,7 +87,7 @@ console.log(arrFinal);
 // array sorting
 // nested loop
 // using bubble short
-
+/*
 let data = [40, 20, 30, 12, 25];
 for (let i = 0; i < data.length; i++) {
   for (let j = 0; j < data.length; j++) {
@@ -99,3 +99,16 @@ for (let i = 0; i < data.length; i++) {
   }
 }
 console.log(data);
+*/
+
+//Recursion
+
+// find factorial of 5
+function findFact(item) {
+  if (item == 0) {
+    return 1;
+  }
+  return item * findFact(item - 1);
+}
+const data = 5;
+console.log(findFact(data));
