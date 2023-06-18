@@ -130,3 +130,36 @@ function customReverse(data, start, end) {
 }
 customReverse(data, 0, data.length - 1);
 */
+
+// insert element into stack and remove element into stack
+
+let data = [];
+let currentSize = data.length;
+let max = 5;
+
+// push method
+function push(newVal) {
+  if (currentSize >= max) {
+    alert("stack is full you can not add more element");
+  }
+  data[currentSize] = newVal;
+  currentSize += 1;
+}
+push(29);
+push(39);
+push(390);
+push(398);
+push(400);
+
+// pop method
+function pop() {
+  if (currentSize > 0) {
+    currentSize -= 1;
+    data.length = currentSize;
+  } else {
+    alert("stack is empty");
+  }
+}
+pop();
+pop();
+console.log(data);
