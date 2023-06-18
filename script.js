@@ -114,3 +114,19 @@ function findFact(item) {
 const data = 5;
 console.log(findFact(data));
 */
+
+//  reverse array with recursion
+/*
+let data = [3, 40, 30, 50, 79];
+function customReverse(data, start, end) {
+  console.log(data);
+  if (start <= end) {
+    let temp = data[start];
+    data[start] = data[end];
+    data[end] = temp;
+
+    customReverse(data, start + 1, end - 1);
+  }
+}
+customReverse(data, 0, data.length - 1);
+*/
