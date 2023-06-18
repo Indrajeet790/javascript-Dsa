@@ -132,7 +132,7 @@ customReverse(data, 0, data.length - 1);
 */
 
 // insert element into stack and remove element into stack
-
+/*
 let data = [];
 let currentSize = data.length;
 let max = 5;
@@ -163,3 +163,4 @@ function pop() {
 pop();
 pop();
 console.log(data);
+*/
